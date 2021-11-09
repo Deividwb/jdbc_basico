@@ -8,7 +8,7 @@ public class ConnectionJdbc {
         String url ="jdbc:mysql://localhost:3306/despesasdb?useTimezone=true&serverTimezone=GMT";
 
         try {
-            Connection conn = DriverManager.getConnection(url,"root","");
+            Connection conn = DriverManager.getConnection(url,"root"," ");
             System.out.println("Exito");
         } catch (SQLException e) {
             System.out.println("Falha");
